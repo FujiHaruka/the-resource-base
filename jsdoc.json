@@ -1,0 +1,174 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheResource instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheResource",
+                "description": ""
+            }
+        },
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheResource instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheResource",
+                "description": ""
+            }
+        },
+        {
+            "name": "listenMix",
+            "access": "",
+            "virtual": false,
+            "description": "Mixins for listen",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "listenToCreate",
+            "access": "",
+            "virtual": false,
+            "description": "Listen to create",
+            "parameters": [
+                {
+                    "name": "onCreate",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "close function"
+            }
+        },
+        {
+            "name": "listenToUpdate",
+            "access": "",
+            "virtual": false,
+            "description": "Listen to update",
+            "parameters": [
+                {
+                    "name": "onUpdate",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "close function"
+            }
+        },
+        {
+            "name": "listenToDestroy",
+            "access": "",
+            "virtual": false,
+            "description": "Listen to destroy",
+            "parameters": [
+                {
+                    "name": "onDestroy",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "close function"
+            }
+        },
+        {
+            "name": "listenToDrop",
+            "access": "",
+            "virtual": false,
+            "description": "Listen to drop",
+            "parameters": [
+                {
+                    "name": "onDrop",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "close function"
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "Resource",
+            "description": "",
+            "extends": [
+                "ClayResource",
+                "ListenMixed"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "Resource",
+                "description": "Resource for the DB",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "Resource",
+            "description": "",
+            "extends": [
+                "ClayResource",
+                "ListenMixed"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "Resource",
+                "description": "Resource for the DB",
+                "parameters": [],
+                "examples": []
+            }
+        }
+    ]
+}
