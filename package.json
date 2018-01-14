@@ -30,12 +30,12 @@
   "homepage": "https://github.com/the-labo/the-resource-base#readme",
   "dependencies": {
     "clay-constants": "^3.4.4",
-    "clay-resource": "^5.4.14",
+    "clay-resource": "^5.4.15",
     "clay-resource-name": "^4.0.3"
   },
   "devDependencies": {
     "mocha": "^4.1.0",
-    "the-db": "^9.0.2",
+    "the-db": "^9.0.3",
     "the-script-build": "^2.0.1",
     "the-script-jsdoc": "^2.0.1",
     "the-script-release": "^1.0.6",
