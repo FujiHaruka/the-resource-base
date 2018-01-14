@@ -27,7 +27,7 @@ describe('the-resource', () => {
     const History = db.load(TheResource.WriteOnce, 'History')
 
     let listenCreated
-    User.listenToCreate((created) => {
+    User.listenToCreate(({created}) => {
       listenCreated = created
     })
 
