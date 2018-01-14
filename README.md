@@ -94,8 +94,9 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-resource-base@1.0.0](./doc/api/api.md)
++ [the-resource-base@1.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-resource-base-function-create)
+  + [TheResource](./doc/api/api.md#the-resource-class)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

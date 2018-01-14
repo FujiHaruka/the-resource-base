@@ -6,6 +6,8 @@
 
 const TheResource = require('../lib/TheResource')
 const {ok, equal} = require('assert')
+const {create: theDb} = require('the-db')
+const asleep = require('asleep')
 
 describe('the-resource', () => {
   before(() => {
@@ -14,8 +16,26 @@ describe('the-resource', () => {
   after(() => {
   })
 
-  it('Do test', () => {
+  it('Do test', async () => {
     ok(new TheResource('hoge'))
+
+    const db = theDb({
+      dialect: 'memory'
+    })
+
+    const User = db.load(TheResource, 'User')
+
+    let listenCreated
+    User.listenToCreate((created) => {
+      listenCreated = created
+    })
+
+    await User.create({name: 'foo'})
+
+    await asleep(10)
+    ok(listenCreated)
+    equal(listenCreated.name, 'foo')
+    await db.close()
   })
 })
 

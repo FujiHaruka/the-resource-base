@@ -1,4 +1,4 @@
-# the-resource-base@1.0.0
+# the-resource-base@1.0.1
 
 Base of the-resource
 
@@ -9,8 +9,8 @@ Base of the-resource
   + [listenToUpdate(onUpdate)](#the-resource-base-function-listen-to-update)
   + [listenToDestroy(onDestroy)](#the-resource-base-function-listen-to-destroy)
   + [listenToDrop(onDrop)](#the-resource-base-function-listen-to-drop)
-+ [`Resource`](#the-resource-base-classes) Class
-  + [new Resource()](#the-resource-base-classes-resource-constructor)
++ [`TheResource`](#the-resource-base-classes) Class
+  + [new TheResource()](#the-resource-base-classes-the-resource-constructor)
 
 ## Functions
 
@@ -73,7 +73,7 @@ Listen to drop
 
 <a class='md-heading-link' name="the-resource-base-classes"></a>
 
-## `Resource` Class
+## `TheResource` Class
 
 Resource for the DB
 
@@ -86,11 +86,11 @@ Resource for the DB
 
 
 
-<a class='md-heading-link' name="the-resource-base-classes-resource-constructor" ></a>
+<a class='md-heading-link' name="the-resource-base-classes-the-resource-constructor" ></a>
 
-### new Resource()
+### new TheResource()
 
-Constructor of Resource class
+Constructor of TheResource class
 
 
 
