@@ -137,7 +137,7 @@
     ],
     "classes": [
         {
-            "name": "Resource",
+            "name": "TheResource",
             "description": "",
             "extends": [
                 "ClayResource",
@@ -147,14 +147,14 @@
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "Resource",
+                "name": "TheResource",
                 "description": "Resource for the DB",
                 "parameters": [],
                 "examples": []
             }
         },
         {
-            "name": "Resource",
+            "name": "TheResource",
             "description": "",
             "extends": [
                 "ClayResource",
@@ -164,7 +164,7 @@
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "Resource",
+                "name": "TheResource",
                 "description": "Resource for the DB",
                 "parameters": [],
                 "examples": []
