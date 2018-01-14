@@ -1,4 +1,4 @@
-# the-resource-base@1.0.2
+# the-resource-base@1.0.3
 
 Base of the-resource
 
@@ -9,6 +9,7 @@ Base of the-resource
   + [listenToUpdate(onUpdate)](#the-resource-base-function-listen-to-update)
   + [listenToDestroy(onDestroy)](#the-resource-base-function-listen-to-destroy)
   + [listenToDrop(onDrop)](#the-resource-base-function-listen-to-drop)
+  + [writeOnceMix()](#the-resource-base-function-write-once-mix)
 + [`TheResource`](#the-resource-base-classes) Class
   + [new TheResource()](#the-resource-base-classes-the-resource-constructor)
 
@@ -69,6 +70,11 @@ Listen to drop
 | ----- | --- | -------- |
 | onDrop | function |  |
 
+<a class='md-heading-link' name="the-resource-base-function-write-once-mix" ></a>
+
+### writeOnceMix()
+
+Mixin for writeOnce
 
 
 <a class='md-heading-link' name="the-resource-base-classes"></a>

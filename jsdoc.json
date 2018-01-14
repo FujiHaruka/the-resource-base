@@ -133,6 +133,14 @@
                 "type": "function",
                 "description": "close function"
             }
+        },
+        {
+            "name": "writeOnceMix",
+            "access": "",
+            "virtual": false,
+            "description": "Mixin for writeOnce",
+            "parameters": [],
+            "examples": []
         }
     ],
     "classes": [

@@ -24,6 +24,7 @@ describe('the-resource', () => {
     })
 
     const User = db.load(TheResource, 'User')
+    const History = db.load(TheResource.WriteOnce, 'History')
 
     let listenCreated
     User.listenToCreate((created) => {
@@ -35,6 +36,11 @@ describe('the-resource', () => {
     await asleep(10)
     ok(listenCreated)
     equal(listenCreated.name, 'foo')
+
+    const history = await History.create({})
+    const {error} = await history.update({foo: 'bar'}).catch((error) => ({error}))
+    ok(error)
+
     await db.close()
   })
 })
