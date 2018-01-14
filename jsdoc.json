@@ -22,6 +22,35 @@
             }
         },
         {
+            "name": "isResourceClass",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Boolean",
+                "description": ""
+            }
+        },
+        {
+            "name": "isResourceClass",
+            "access": "",
+            "virtual": false,
+            "description": "Detect is a resource class",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "create",
             "access": "",
             "virtual": false,
@@ -41,6 +70,35 @@
                 "type": "TheResource",
                 "description": ""
             }
+        },
+        {
+            "name": "isResourceClass",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Boolean",
+                "description": ""
+            }
+        },
+        {
+            "name": "isResourceClass",
+            "access": "",
+            "virtual": false,
+            "description": "Detect is a resource class",
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
         },
         {
             "name": "listenMix",
