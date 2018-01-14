@@ -1,9 +1,10 @@
-# the-resource-base@1.2.0
+# the-resource-base@1.2.1
 
 Base of the-resource
 
 + Functions
   + [create(args)](#the-resource-base-function-create)
+  + [isResourceClass(Class)](#the-resource-base-function-is-resource-class)
   + [listenMix()](#the-resource-base-function-listen-mix)
   + [listenToCreate(onCreate)](#the-resource-base-function-listen-to-create)
   + [listenToUpdate(onUpdate)](#the-resource-base-function-listen-to-update)
@@ -24,6 +25,16 @@ Create a TheResource instance
 | Param | Type | Description |
 | ----- | --- | -------- |
 | args | * |  |
+
+<a class='md-heading-link' name="the-resource-base-function-is-resource-class" ></a>
+
+### isResourceClass(Class)
+
+Detect is a resource class
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| Class |  |  |
 
 <a class='md-heading-link' name="the-resource-base-function-listen-mix" ></a>
 
