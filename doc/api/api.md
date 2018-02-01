@@ -1,4 +1,4 @@
-# the-resource-base@1.2.4
+# the-resource-base@1.2.5
 
 Base of the-resource
 
