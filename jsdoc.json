@@ -130,27 +130,6 @@
             }
         },
         {
-            "name": "listenToUpdate",
-            "access": "",
-            "virtual": false,
-            "description": "Listen to update",
-            "parameters": [
-                {
-                    "name": "onUpdate",
-                    "type": "function",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "function",
-                "description": "close function"
-            }
-        },
-        {
             "name": "listenToDestroy",
             "access": "",
             "virtual": false,
@@ -179,6 +158,27 @@
             "parameters": [
                 {
                     "name": "onDrop",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": "close function"
+            }
+        },
+        {
+            "name": "listenToUpdate",
+            "access": "",
+            "virtual": false,
+            "description": "Listen to update",
+            "parameters": [
+                {
+                    "name": "onUpdate",
                     "type": "function",
                     "description": "",
                     "default": "",

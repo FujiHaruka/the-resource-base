@@ -25,13 +25,14 @@ describe('the-resource', () => {
 
     const User = db.load(TheResource, 'User')
     const History = db.load(TheResource.WriteOnce, 'History')
+    User.invalidated = async () => {}
 
     let listenCreated
     User.listenToCreate(({created}) => {
       listenCreated = created
     })
 
-    await User.create({name: 'foo'})
+    const user = await User.create({name: 'foo'})
 
     await asleep(10)
     ok(listenCreated)
@@ -40,6 +41,8 @@ describe('the-resource', () => {
     const history = await History.create({})
     const {error} = await history.update({foo: 'bar'}).catch((error) => ({error}))
     ok(error)
+
+    await User.refresh(user)
 
     await db.close()
   })
