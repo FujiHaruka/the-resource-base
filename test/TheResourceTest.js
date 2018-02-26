@@ -27,6 +27,10 @@ describe('the-resource', () => {
     const History = db.load(TheResource.WriteOnce, 'History')
     User.invalidated = async () => {}
 
+    equal(User.refOf('1'), 'User#1')
+    equal(User.refOf({id: '1'}), 'User#1')
+    equal(User.refOf({$ref: 'User#1'}), 'User#1')
+
     let listenCreated
     User.listenToCreate(({created}) => {
       listenCreated = created
