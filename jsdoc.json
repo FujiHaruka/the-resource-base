@@ -217,7 +217,57 @@
                 "description": "Resource for the DB",
                 "parameters": [],
                 "examples": []
-            }
+            },
+            "functions": [
+                {
+                    "name": "refOf",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get ref of id",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
+                            "description": "Id (or may be an entity)",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": [
+                            "string",
+                            "Object"
+                        ],
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "refOf",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get ref of id",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
+                            "description": "Id (or may be an entity)",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": [
+                            "string",
+                            "Object"
+                        ],
+                        "description": ""
+                    }
+                }
+            ]
         },
         {
             "name": "TheResource",
@@ -234,7 +284,57 @@
                 "description": "Resource for the DB",
                 "parameters": [],
                 "examples": []
-            }
+            },
+            "functions": [
+                {
+                    "name": "refOf",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get ref of id",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
+                            "description": "Id (or may be an entity)",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": [
+                            "string",
+                            "Object"
+                        ],
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "refOf",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get ref of id",
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "type": "",
+                            "description": "Id (or may be an entity)",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": [
+                            "string",
+                            "Object"
+                        ],
+                        "description": ""
+                    }
+                }
+            ]
         }
     ]
 }
