@@ -218,6 +218,22 @@
                 "parameters": [],
                 "examples": []
             },
+            "properties": [
+                {
+                    "name": "cascaded",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Cascade destroy condition",
+                    "type": ""
+                },
+                {
+                    "name": "cascaded",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Cascade destroy condition",
+                    "type": ""
+                }
+            ],
             "functions": [
                 {
                     "name": "refOf",
@@ -285,6 +301,22 @@
                 "parameters": [],
                 "examples": []
             },
+            "properties": [
+                {
+                    "name": "cascaded",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Cascade destroy condition",
+                    "type": ""
+                },
+                {
+                    "name": "cascaded",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Cascade destroy condition",
+                    "type": ""
+                }
+            ],
             "functions": [
                 {
                     "name": "refOf",
