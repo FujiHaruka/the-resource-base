@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "mocha": "^5.0.1",
-    "the-db": "^9.3.7",
+    "the-db": "^9.3.12",
     "the-script-build": "^3.1.4",
     "the-script-jsdoc": "^2.0.1",
     "the-script-release": "^1.0.6",
