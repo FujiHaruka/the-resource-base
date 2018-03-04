@@ -105,8 +105,21 @@
             "access": "",
             "virtual": false,
             "description": "Mixins for listen",
-            "parameters": [],
-            "examples": []
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": ""
+            }
         },
         {
             "name": "listenToCreate",
@@ -197,8 +210,21 @@
             "access": "",
             "virtual": false,
             "description": "Mixin for writeOnce",
-            "parameters": [],
-            "examples": []
+            "parameters": [
+                {
+                    "name": "Class",
+                    "type": "function",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "function",
+                "description": ""
+            }
         }
     ],
     "classes": [
