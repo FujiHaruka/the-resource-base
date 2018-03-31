@@ -51,56 +51,6 @@
             "examples": []
         },
         {
-            "name": "create",
-            "access": "",
-            "virtual": false,
-            "description": "Create a TheResource instance",
-            "parameters": [
-                {
-                    "name": "args",
-                    "type": "*",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": [],
-            "returns": {
-                "type": "TheResource",
-                "description": ""
-            }
-        },
-        {
-            "name": "isResourceClass",
-            "access": "",
-            "virtual": false,
-            "description": "",
-            "parameters": [],
-            "examples": [],
-            "returns": {
-                "type": "Boolean",
-                "description": ""
-            }
-        },
-        {
-            "name": "isResourceClass",
-            "access": "",
-            "virtual": false,
-            "description": "Detect is a resource class",
-            "parameters": [
-                {
-                    "name": "Class",
-                    "type": "",
-                    "description": "",
-                    "default": "",
-                    "optional": "",
-                    "nullable": ""
-                }
-            ],
-            "examples": []
-        },
-        {
             "name": "listenMix",
             "access": "",
             "virtual": false,
@@ -251,13 +201,6 @@
                     "virtual": false,
                     "description": "Cascade destroy condition",
                     "type": ""
-                },
-                {
-                    "name": "cascaded",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Cascade destroy condition",
-                    "type": ""
                 }
             ],
             "functions": [
@@ -286,98 +229,27 @@
                     }
                 },
                 {
-                    "name": "refOf",
+                    "name": "emptyList",
                     "access": "",
                     "virtual": false,
-                    "description": "Get ref of id",
-                    "parameters": [
-                        {
-                            "name": "id",
-                            "type": "",
-                            "description": "Id (or may be an entity)",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
+                    "description": "Create empty list",
+                    "parameters": [],
                     "examples": [],
                     "returns": {
-                        "type": [
-                            "string",
-                            "Object"
-                        ],
-                        "description": ""
-                    }
-                }
-            ]
-        },
-        {
-            "name": "TheResource",
-            "description": "",
-            "extends": [
-                "ClayResource",
-                "ListenMixed"
-            ],
-            "access": "",
-            "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "TheResource",
-                "description": "Resource for the DB",
-                "parameters": [],
-                "examples": []
-            },
-            "properties": [
-                {
-                    "name": "cascaded",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Cascade destroy condition",
-                    "type": ""
-                },
-                {
-                    "name": "cascaded",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Cascade destroy condition",
-                    "type": ""
-                }
-            ],
-            "functions": [
-                {
-                    "name": "refOf",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Get ref of id",
-                    "parameters": [
-                        {
-                            "name": "id",
-                            "type": "",
-                            "description": "Id (or may be an entity)",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": [
-                            "string",
-                            "Object"
-                        ],
+                        "type": "Promise.<lib.Collection>",
                         "description": ""
                     }
                 },
                 {
-                    "name": "refOf",
+                    "name": "invalidated",
                     "access": "",
                     "virtual": false,
-                    "description": "Get ref of id",
+                    "description": "Get invalidated attributes",
                     "parameters": [
                         {
-                            "name": "id",
-                            "type": "",
-                            "description": "Id (or may be an entity)",
+                            "name": "attributes",
+                            "type": "Object",
+                            "description": "",
                             "default": "",
                             "optional": "",
                             "nullable": ""
@@ -385,10 +257,7 @@
                     ],
                     "examples": [],
                     "returns": {
-                        "type": [
-                            "string",
-                            "Object"
-                        ],
+                        "type": "Promise.<Object>",
                         "description": ""
                     }
                 }

@@ -48,8 +48,9 @@ describe('the-resource', () => {
 
     await User.refresh(user)
 
-
     ok(User.emptyList())
+
+    await User.refreshAll()
     await db.close()
   })
 })
