@@ -15,7 +15,8 @@ Base of the-resource
 + [`TheResource`](#the-resource-base-classes) Class
   + [new TheResource()](#the-resource-base-classes-the-resource-constructor)
   + [resource.refOf(id)](#the-resource-base-classes-the-resource-refOf)
-  + [resource.refOf(id)](#the-resource-base-classes-the-resource-refOf)
+  + [resource.emptyList()](#the-resource-base-classes-the-resource-emptyList)
+  + [resource.invalidated(attributes)](#the-resource-base-classes-the-resource-invalidated)
 
 ## Functions
 
@@ -135,15 +136,21 @@ Get ref of id
 | id |  | Id (or may be an entity) |
 
 
-<a class='md-heading-link' name="the-resource-base-classes-the-resource-refOf" ></a>
+<a class='md-heading-link' name="the-resource-base-classes-the-resource-emptyList" ></a>
 
-### resource.refOf(id) -> `string,Object`
+### resource.emptyList() -> `Promise.<lib.Collection>`
 
-Get ref of id
+Create empty list
+
+<a class='md-heading-link' name="the-resource-base-classes-the-resource-invalidated" ></a>
+
+### resource.invalidated(attributes) -> `Promise.<Object>`
+
+Get invalidated attributes
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| id |  | Id (or may be an entity) |
+| attributes | Object |  |
 
 
 

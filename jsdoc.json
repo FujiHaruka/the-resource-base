@@ -260,6 +260,39 @@
                         "type": "Promise.<Object>",
                         "description": ""
                     }
+                },
+                {
+                    "name": "refresh",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Refresh clay entity",
+                    "parameters": [
+                        {
+                            "name": "entity",
+                            "type": "Entity",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "refreshAll",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Refresh all",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
                 }
             ]
         }
