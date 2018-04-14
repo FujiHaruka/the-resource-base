@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "clay-constants": "^3.4.4",
-    "clay-resource": "^5.5.9",
-    "clay-resource-name": "^4.0.3"
+    "clay-resource": "^5.5.11",
+    "clay-resource-name": "^4.0.4"
   },
   "devDependencies": {
-    "mocha": "^5.0.5",
-    "the-db": "^9.3.25",
-    "the-script-build": "^3.1.6",
+    "mocha": "^5.1.0",
+    "the-db": "^9.3.35",
+    "the-script-build": "^3.1.7",
     "the-script-jsdoc": "^2.0.2",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
