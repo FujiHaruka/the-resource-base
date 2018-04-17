@@ -5,7 +5,7 @@
 'use strict'
 
 const DataTypes = require('../lib/DataTypes')
-const { ok, equal } = require('assert')
+const {ok, equal} = require('assert')
 
 describe('data-types', () => {
   before(() => {
@@ -15,7 +15,8 @@ describe('data-types', () => {
   })
 
   it('Do test', () => {
-
+    ok(!DataTypes.hoge)
+    ok(DataTypes.BOOLEAN)
   })
 })
 
