@@ -13,20 +13,20 @@
   },
   "dependencies": {
     "clay-constants": "^3.4.4",
-    "clay-resource": "^5.5.14",
+    "clay-resource": "^5.5.17",
     "clay-resource-name": "^4.0.4",
     "the-check": "^1.2.3",
     "the-hash": "^1.0.11"
   },
   "devDependencies": {
-    "mocha": "^5.1.1",
-    "the-db": "^9.3.40",
+    "mocha": "^5.2.0",
+    "the-db": "^9.4.3",
     "the-script-build": "^3.1.9",
     "the-script-jsdoc": "^2.0.2",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^2.0.0",
-    "the-templates": "^3.1.8"
+    "the-templates": "^3.2.1"
   },
   "engines": {
     "node": ">=8",
