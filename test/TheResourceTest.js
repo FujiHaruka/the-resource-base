@@ -51,6 +51,7 @@ describe('the-resource', () => {
     ok(User.emptyList())
 
     await User.refreshAll()
+    await User.resaveAll()
     await db.close()
   })
 })

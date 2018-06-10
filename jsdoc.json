@@ -293,6 +293,18 @@
                         "type": "Promise.<void>",
                         "description": ""
                     }
+                },
+                {
+                    "name": "resaveAll",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Resave all",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
                 }
             ]
         }

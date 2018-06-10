@@ -89,7 +89,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-resource-base@1.2.26](./doc/api/api.md)
++ [the-resource-base@1.3.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-resource-base-function-create)
   + [TheResource](./doc/api/api.md#the-resource-class)
 
